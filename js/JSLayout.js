@@ -4,8 +4,8 @@ $(".itemsFooter").html('');
 		url: "/data/dataSite.json",	
 		dataType: 'json',		
 		success: function (data) {
-            $(".IconSite").attr("src",data.Icon);
-            $(".imgSite").attr("src",data.Img);
+            $(".IconSite").attr("src", "/img/" +data.Icon);
+            $(".imgSite").attr("src", "/img/" +data.Img);
             $(".NameSite").html(data.NameSite);
             $(".descriptionSite").html(data.description);
             $(".mobileSite").html(data.mobile);

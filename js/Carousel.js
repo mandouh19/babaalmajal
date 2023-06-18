@@ -8,11 +8,11 @@ $(".carousel-inner").html('');
 			$.each(data, function (i, row) {
                 if(no==0){
                     items +=' <div class="carousel-item active">'
-                    +' <img class="w-100" src="'+row.ImgUrl+'" alt="'+row.Title+'">'                   
+                    +' <img class="w-100" src="img/'+row.ImgUrl+'" alt="'+row.Title+'">'                   
                     +' </div>';
                 }else{
                     items +=' <div class="carousel-item">'
-                    +' <img class="w-100" src="'+row.ImgUrl+'" alt="'+row.Title+'">'                   
+                    +' <img class="w-100" src="img/'+row.ImgUrl+'" alt="'+row.Title+'">'                   
                     +' </div>';
                 }
                 no++;

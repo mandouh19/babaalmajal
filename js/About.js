@@ -4,8 +4,8 @@ $(".AboutlsImg").html('');
 		dataType: 'json',		
 		success: function (data) {
       $(".AboutTitle").html(data.Title);
-            $(".AboutImgUrl").attr("src",data.ImgUrl);
-            $(".AboutIcon").attr("src",data.Icon);          
+            $(".AboutImgUrl").attr("src", "/img/" +data.ImgUrl);
+            $(".AboutIcon").attr("src", "/img/" +data.Icon);          
             $(".Aboutdescription").html(data.description);   
 			var items = '';
            var no=0;

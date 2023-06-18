@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://babaalmajal.online</loc>
+		<lastmod>2023-06-01T22:45:40+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://babaalmajal.online/servicelaundry.html</loc>
+		<lastmod>2023-06-02T22:45:40+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://babaalmajal.online/ServicesTransfer.html</loc>
+		<lastmod>2023-06-03T22:45:40+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://babaalmajal.online/houseCleaning.html</loc>
+		<lastmod>2023-06-04T22:45:40+02:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.8</priority>
+	</url>
+</urlset>
