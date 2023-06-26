@@ -80,9 +80,23 @@
 <script>
   gtag('event', 'conversion', {'send_to': 'AW-11225014655/-Xk4CNzf4q0YEP_CwOgp'});
 </script>
-
+<!-- Event snippet for الاتصال من الموقع conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11225014655/Db5qCIfl2bAYEP_CwOgp',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 </head>
-
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
